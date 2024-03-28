@@ -1,0 +1,219 @@
+{
+  "companies": [
+    {
+      "id": "2034",
+      "email": "admin@riwi.io",
+      "nameCompany": "Riwi",
+      "imageCompany": "assets/img/logo.webp",
+      "nit": "90212131",
+      "password": "riwi2024"
+    },
+    {
+      "id": "2035",
+      "email": "admin@google.com",
+      "nameCompany": "Google",
+      "imageCompany": "assets/img/avatar.jpg",
+      "nit": "90212132",
+      "password": "google_2024"
+    },
+    {
+      "id": "64d7",
+      "email": "santiago@hotmail.com",
+      "nameCompany": "Electronics",
+      "imageCompany": "assets/img/9433441.jpg",
+      "nit": "123456789",
+      "password": "admin1234"
+    },
+    {
+      "id": "642d",
+      "email": "santiago2@hotmail.com",
+      "nameCompany": "Electronics2",
+      "imageCompany": "assets/img/product.jpg",
+      "nit": "123456788",
+      "password": "123456"
+    },
+    {
+      "id": "875e",
+      "email": "santiago3@hotmail.com",
+      "nameCompany": "Electronics3",
+      "imageCompany": "assets/img/register.jpg",
+      "nit": "123456780",
+      "password": "admin4321"
+    },
+    {
+      "id": "decc",
+      "email": "santiago4@hotmail.com",
+      "nameCompany": "merkatronix",
+      "imageCompany": "https://picsum.photos/id/0/5000/3333",
+      "nit": "12345678",
+      "password": "Cuborubik"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Chief Executive Officer (CEO)",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis tempora dicta quidem ex, quod, et minima dolores alias ipsa quis quo laboriosam iure? Voluptatum porro dolore tempore alias sit excepturi.",
+      "publicationDate": "27/3/2024",
+      "location": "London",
+      "experience": "45",
+      "modality": "In person",
+      "salary": "1200000",
+      "companyId": "Riwi",
+      "id": "1"
+    },
+    {
+      "id": "4",
+      "title": "Software Engineer",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis tempora dicta quidem ex, quod, et minima dolores alias ipsa quis quo laboriosam iure? Voluptatum porro dolore tempore alias sit excepturi.",
+      "publicationDate": "12/02/2024",
+      "location": "London",
+      "experience": 41,
+      "modality": "Remote",
+      "salary": "$1,320,000",
+      "companyId": "Bancoo"
+    },
+    {
+      "id": "52e5",
+      "title": "Ingeniero electronico",
+      "description": "A trabajar",
+      "publicationDate": "12/2/2024",
+      "location": "Medellín",
+      "experience": "36",
+      "modality": "In person",
+      "salary": "1200000",
+      "companyId": "Riwi"
+    },
+    {
+      "title": "Quires trabajar ya?",
+      "description": "asdfadsfasdf",
+      "publicationDate": "27/3/2024",
+      "location": "Antioquia",
+      "experience": "48",
+      "modality": "In person",
+      "salary": "1234564556",
+      "companyId": "Riwi",
+      "id": "059b"
+    },
+    {
+      "id": "ae18",
+      "title": "Primer trabajo electronico",
+      "description": "Que sea entusiasta",
+      "publicationDate": "12/2/2024",
+      "location": "Medellin",
+      "experience": "0",
+      "modality": "In person",
+      "salary": "1000000",
+      "companyId": "Electronics"
+    },
+    {
+      "id": "a54e",
+      "title": "enfermera",
+      "description": "Trabaja en semana descansa fines de semana",
+      "publicationDate": "12/2/2024",
+      "location": "Bogotá",
+      "experience": "48",
+      "modality": "In person",
+      "salary": "3000000",
+      "companyId": "Electronics3"
+    },
+    {
+      "id": "bd14",
+      "title": "Java developer in Colombia",
+      "description": "Trabaja con nosotros",
+      "publicationDate": "28/3/2024",
+      "location": "San Luis",
+      "experience": "48",
+      "modality": "Remote",
+      "salary": "5000000",
+      "companyId": "merkatronix"
+    }
+  ],
+  "jobs2": [
+    {
+      "id": "1",
+      "title": "Chief Executive Officer (CEO)",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis tempora dicta quidem ex, quod, et minima dolores alias ipsa quis quo laboriosam iure? Voluptatum porro dolore tempore alias sit excepturi.",
+      "publicationDate": "10/02/2024",
+      "location": "London",
+      "experience": 47,
+      "modality": "In person",
+      "salary": "$1,200,000",
+      "companyId": "Riwi"
+    },
+    {
+      "id": "2",
+      "title": "Junior Technical Author",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis tempora dicta quidem ex, quod, et minima dolores alias ipsa quis quo laboriosam iure? Voluptatum porro dolore tempore alias sit excepturi.",
+      "publicationDate": "11/02/2024",
+      "location": "San Francisco",
+      "experience": 66,
+      "modality": "In person",
+      "salary": "$86,000",
+      "companyId": "Riwi"
+    },
+    {
+      "id": "3",
+      "title": "Software Engineer",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis tempora dicta quidem ex, quod, et minima dolores alias ipsa quis quo laboriosam iure? Voluptatum porro dolore tempore alias sit excepturi.",
+      "publicationDate": "12/02/2024",
+      "location": "London",
+      "experience": 41,
+      "modality": "Remote",
+      "salary": "$1,320,000",
+      "companyId": "Riwi"
+    },
+    {
+      "id": "4",
+      "title": "Software Engineer",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis tempora dicta quidem ex, quod, et minima dolores alias ipsa quis quo laboriosam iure? Voluptatum porro dolore tempore alias sit excepturi.",
+      "publicationDate": "12/02/2024",
+      "location": "London",
+      "experience": 41,
+      "modality": "Remote",
+      "salary": "$1,320,000",
+      "companyId": "Bancoo"
+    }
+  ],
+  "companies2": [
+    {
+      "id": "2034",
+      "email": "admin@riwi.io",
+      "nameCompany": "Riwi",
+      "imageCompany": "https://riwi.io/wp-content/uploads/2023/07/Fondo-claro-logo.png",
+      "nit": "90212131",
+      "password": "riwi2024"
+    },
+    {
+      "id": "2035",
+      "email": "admin@google.com",
+      "nameCompany": "Google",
+      "imageCompany": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
+      "nit": "90212132",
+      "password": "google_2024"
+    },
+    {
+      "id": "64d7",
+      "email": "santiago@hotmail.com",
+      "nameCompany": "Electronics",
+      "imageCompany": "https://picsum.photos/id/14/2500/1667",
+      "nit": "123456789",
+      "password": "admin1234"
+    },
+    {
+      "id": "642d",
+      "email": "santiago2@hotmail.com",
+      "nameCompany": "Electronics2",
+      "imageCompany": "https://picsum.photos/id/15/2500/1667",
+      "nit": "123456788",
+      "password": "123456"
+    },
+    {
+      "id": "875e",
+      "email": "santiago3@hotmail.com",
+      "nameCompany": "Electronics3",
+      "imageCompany": "https://picsum.photos/id/16/2500/1667",
+      "nit": "123456780",
+      "password": "admin4321"
+    }
+  ]
+}
