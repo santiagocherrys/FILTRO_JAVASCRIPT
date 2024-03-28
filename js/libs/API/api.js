@@ -1,5 +1,5 @@
 /* URL para acceder al json server */
 
-export const urlCompanies = 'http://localhost:3000/companies';
-export const urlJobs = 'http://localhost:3000/jobs';
+export const urlCompanies = 'https://json-server-filtro-javascript.onrender.com/companies';
+export const urlJobs = 'https://json-server-filtro-javascript.onrender.com/jobs';
 
