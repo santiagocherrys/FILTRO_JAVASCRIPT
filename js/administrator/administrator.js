@@ -154,6 +154,7 @@ formAddJob.addEventListener('submit',async (e)=>{
 
   /* Revisa si es editar o actualizar */
   const job ={
+    id: identificador.value,
     title: title_job.value,
     description: description.value,
     publicationDate: `${hora.getDate()}/${(hora.getMonth()+1)}/${hora.getFullYear()}`,
