@@ -166,6 +166,7 @@ formAddJob.addEventListener('submit',async (e)=>{
 
   console.log(identificador.value);
   console.log("Identificador con e.target ", e.target.value);
+  console.log("Este es el objeto a enviar ", job);
 
   if(identificador.value){
     console.log("actualizar información");

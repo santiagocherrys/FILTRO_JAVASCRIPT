@@ -67,7 +67,7 @@ export async function updateNew(id,job){
     await fetch(`${urlJobs}/${id}`,{
         method: 'PUT',
         headers:{
-            'Content-type': 'application/josn'
+            'Content-type': 'application/json'
         },
         body: JSON.stringify(job)
     })
