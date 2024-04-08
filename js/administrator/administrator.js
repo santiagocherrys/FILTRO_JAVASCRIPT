@@ -164,6 +164,9 @@ formAddJob.addEventListener('submit',async (e)=>{
     companyId: company.nameCompany
   }
 
+  console.log(identificador.value);
+  console.log("Identificador con e.target ", e.target.value);
+
   if(identificador.value){
     console.log("actualizar información");
 
