@@ -36,7 +36,7 @@ export async function paintJobs(){
 
     if(trabajosCompany.length > 0){
         /* Borra todo */
-        /* tbodyAdmin.innerHTML = ""; */
+        tbodyAdmin.innerHTML = "";
 
         /* Pinta las cards */
         trabajosCompany.forEach(trabajo => {
