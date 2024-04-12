@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
-async function paintJobs(){
+export async function paintJobs(){
 
     /* Se lee todas las vacantes */
     const trabajos = await getDb(urlJobs);
@@ -129,7 +129,8 @@ async function paintJobs(){
     }
 ;
 
-
+//Se pone esto porque no tiene bueno el DOM
+identificador.value="";
 }
 
 /* Evento de form añadir trabajo */
