@@ -118,8 +118,9 @@ export async function paintJobs(){
 
                 /* Borra selecciòn */
                 deleteById(erase.getAttribute('valor'));
-                //Se pone esto porque no ejecuta el DOM
-                paintJobs();
+
+                //Se tiene que poner un tiempo porque no le da la velocidad al json-server para borrarlo tan rapido
+                setTimeout(paintJobs,500)
             });
         })
         
