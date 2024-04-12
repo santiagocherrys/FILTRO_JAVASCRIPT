@@ -2,8 +2,6 @@
 
 
 /* Funciones CRUD */
-
-import { paintJobs } from "../../administrator/administrator.js";
 import { urlCompanies, urlJobs } from "./api.js";
 
 /* Get */
@@ -51,15 +49,14 @@ export async function createJob(job){
     }catch(error){
         console.log("este es el error: " ,error);
     }
-    //Como no funciona el DOM se tiene que llamar de aqui
-    paintJobs();
+    
 }
 
 export async function deleteById(id){
     await fetch(`${urlJobs}/${id}`,{
         method: "DELETE"
     });
-    paintJobs();
+    
 }
 
 export async function getNewById(id){
@@ -77,6 +74,5 @@ export async function updateNew(id,job){
         body: JSON.stringify(job)
     })
     
-    //Como no funciona el DOM se tiene que llamar de aqui
-    paintJobs();
+    
 }

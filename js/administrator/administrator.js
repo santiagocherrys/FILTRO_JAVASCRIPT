@@ -118,6 +118,8 @@ export async function paintJobs(){
 
                 /* Borra selecciòn */
                 deleteById(erase.getAttribute('valor'));
+                //Se pone esto porque no ejecuta el DOM
+                paintJobs();
             });
         })
         
@@ -173,11 +175,15 @@ formAddJob.addEventListener('submit',async (e)=>{
     console.log("actualizar información");
 
     await updateNew(identificador.value,job);
+    //Como no funciona el DOM se tiene que llamar de aqui
+    paintJobs();
   }else{
     /* Crea nuevo elemento */
     formAddJob.reset();
     
     await createJob(job);
+    //Como no funciona el DOM se tiene que llamar de aqui
+    paintJobs();
   }
 
   
